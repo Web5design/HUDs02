@@ -13,6 +13,7 @@
 		7FD7DE1C15C03D3D00DCA702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE1A15C03D3D00DCA702 /* InfoPlist.strings */; };
 		7FD7DE1E15C03D3D00DCA702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE1D15C03D3D00DCA702 /* main.m */; };
 		7FD7DE2215C03D3D00DCA702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */; };
+		7FD7DE2915C03D5100DCA702 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		7FD7DE1115C03D3D00DCA702 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FD7DE1315C03D3D00DCA702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7FD7DE1515C03D3D00DCA702 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7FD7DE1915C03D3D00DCA702 /* HUDs02-Info.plist */ = {isa = PBXFileReference; path = "HUDs02-Info.plist"; sourceTree = "<group>"; };
+		7FD7DE1915C03D3D00DCA702 /* HUDs02-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HUDs02-Info.plist"; sourceTree = "<group>"; };
 		7FD7DE1B15C03D3D00DCA702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FD7DE1D15C03D3D00DCA702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7FD7DE1F15C03D3D00DCA702 /* HUDs02-Prefix.pch */ = {isa = PBXFileReference; path = "HUDs02-Prefix.pch"; sourceTree = "<group>"; };
-		7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FD7DE1F15C03D3D00DCA702 /* HUDs02-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HUDs02-Prefix.pch"; sourceTree = "<group>"; };
+		7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FD7DE2915C03D5100DCA702 /* QuartzCore.framework in Frameworks */,
 				7FD7DE1215C03D3D00DCA702 /* UIKit.framework in Frameworks */,
 				7FD7DE1415C03D3D00DCA702 /* Foundation.framework in Frameworks */,
 				7FD7DE1615C03D3D00DCA702 /* CoreGraphics.framework in Frameworks */,
@@ -62,6 +65,7 @@
 		7FD7DE1015C03D3D00DCA702 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */,
 				7FD7DE1115C03D3D00DCA702 /* UIKit.framework */,
 				7FD7DE1315C03D3D00DCA702 /* Foundation.framework */,
 				7FD7DE1515C03D3D00DCA702 /* CoreGraphics.framework */,
