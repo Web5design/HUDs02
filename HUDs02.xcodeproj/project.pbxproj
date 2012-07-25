@@ -14,6 +14,8 @@
 		7FD7DE1E15C03D3D00DCA702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE1D15C03D3D00DCA702 /* main.m */; };
 		7FD7DE2215C03D3D00DCA702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */; };
 		7FD7DE2915C03D5100DCA702 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */; };
+		7FD7DE2D15C03DBB00DCA702 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */; };
+		7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,9 @@
 		7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7FD7DE2A15C03DBB00DCA702 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 				7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */,
 				7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */,
 				7FD7DE1815C03D3D00DCA702 /* Supporting Files */,
+				7FD7DE2A15C03DBB00DCA702 /* RootViewController.h */,
+				7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */,
+				7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */,
 			);
 			path = HUDs02;
 			sourceTree = "<group>";
@@ -145,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FD7DE1C15C03D3D00DCA702 /* InfoPlist.strings in Resources */,
+				7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +166,7 @@
 			files = (
 				7FD7DE1E15C03D3D00DCA702 /* main.m in Sources */,
 				7FD7DE2215C03D3D00DCA702 /* AppDelegate.m in Sources */,
+				7FD7DE2D15C03DBB00DCA702 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
