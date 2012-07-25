@@ -9,8 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface RootViewController : UIViewController
+{
+	@private
+	
+	__weak CALayer *hudLayerRef;
+	
+	BOOL isHUDVisible;
+}
 
 @property (nonatomic, weak) IBOutlet UIView *hudActivationViewRef;
 @property (nonatomic, weak) IBOutlet UIView *childContainerViewRef;
+
++ (RootViewController *)sharedInstance;
 
 @end

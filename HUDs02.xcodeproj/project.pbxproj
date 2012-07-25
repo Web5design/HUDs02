@@ -16,6 +16,8 @@
 		7FD7DE2915C03D5100DCA702 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE2815C03D5100DCA702 /* QuartzCore.framework */; };
 		7FD7DE2D15C03DBB00DCA702 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */; };
 		7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */; };
+		7FD7DE3315C0405400DCA702 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */; };
+		7FD7DE3415C0405400DCA702 /* UIColor+Crayons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,10 @@
 		7FD7DE2A15C03DBB00DCA702 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		7FD7DE2F15C0405400DCA702 /* UIColor-Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor-Expanded.h"; sourceTree = "<group>"; };
+		7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
+		7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Crayons.h"; sourceTree = "<group>"; };
+		7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Crayons.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,10 @@
 		7FD7DE1715C03D3D00DCA702 /* HUDs02 */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7DE2F15C0405400DCA702 /* UIColor-Expanded.h */,
+				7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */,
+				7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */,
+				7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */,
 				7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */,
 				7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */,
 				7FD7DE1815C03D3D00DCA702 /* Supporting Files */,
@@ -167,6 +177,8 @@
 				7FD7DE1E15C03D3D00DCA702 /* main.m in Sources */,
 				7FD7DE2215C03D3D00DCA702 /* AppDelegate.m in Sources */,
 				7FD7DE2D15C03DBB00DCA702 /* RootViewController.m in Sources */,
+				7FD7DE3315C0405400DCA702 /* UIColor-Expanded.m in Sources */,
+				7FD7DE3415C0405400DCA702 /* UIColor+Crayons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
