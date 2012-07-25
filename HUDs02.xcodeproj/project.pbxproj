@@ -18,6 +18,10 @@
 		7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */; };
 		7FD7DE3315C0405400DCA702 /* UIColor-Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */; };
 		7FD7DE3415C0405400DCA702 /* UIColor+Crayons.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */; };
+		7FD7DE3C15C042DE00DCA702 /* RandomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3A15C042DE00DCA702 /* RandomViewController.m */; };
+		7FD7DE3D15C042DE00DCA702 /* RandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3B15C042DE00DCA702 /* RandomViewController.xib */; };
+		7FD7DE4015C0465100DCA702 /* ContentKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3F15C0465000DCA702 /* ContentKey.m */; };
+		7FD7DE4515C05B4900DCA702 /* key01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE4315C05B4900DCA702 /* key01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,13 @@
 		7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor-Expanded.m"; sourceTree = "<group>"; };
 		7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Crayons.h"; sourceTree = "<group>"; };
 		7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Crayons.m"; sourceTree = "<group>"; };
+		7FD7DE3915C042DE00DCA702 /* RandomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RandomViewController.h; sourceTree = "<group>"; };
+		7FD7DE3A15C042DE00DCA702 /* RandomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RandomViewController.m; sourceTree = "<group>"; };
+		7FD7DE3B15C042DE00DCA702 /* RandomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RandomViewController.xib; sourceTree = "<group>"; };
+		7FD7DE3E15C0465000DCA702 /* ContentKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentKey.h; sourceTree = "<group>"; };
+		7FD7DE3F15C0465000DCA702 /* ContentKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentKey.m; sourceTree = "<group>"; };
+		7FD7DE4115C0560B00DCA702 /* ContentKeyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentKeyController.h; sourceTree = "<group>"; };
+		7FD7DE4315C05B4900DCA702 /* key01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +98,7 @@
 		7FD7DE1715C03D3D00DCA702 /* HUDs02 */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7DE4215C05B3400DCA702 /* Reference Grids */,
 				7FD7DE2F15C0405400DCA702 /* UIColor-Expanded.h */,
 				7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */,
 				7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */,
@@ -97,6 +109,12 @@
 				7FD7DE2A15C03DBB00DCA702 /* RootViewController.h */,
 				7FD7DE2B15C03DBB00DCA702 /* RootViewController.m */,
 				7FD7DE2C15C03DBB00DCA702 /* RootViewController.xib */,
+				7FD7DE3915C042DE00DCA702 /* RandomViewController.h */,
+				7FD7DE3A15C042DE00DCA702 /* RandomViewController.m */,
+				7FD7DE3B15C042DE00DCA702 /* RandomViewController.xib */,
+				7FD7DE3E15C0465000DCA702 /* ContentKey.h */,
+				7FD7DE3F15C0465000DCA702 /* ContentKey.m */,
+				7FD7DE4115C0560B00DCA702 /* ContentKeyController.h */,
 			);
 			path = HUDs02;
 			sourceTree = "<group>";
@@ -110,6 +128,14 @@
 				7FD7DE1F15C03D3D00DCA702 /* HUDs02-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FD7DE4215C05B3400DCA702 /* Reference Grids */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7DE4315C05B4900DCA702 /* key01.png */,
+			);
+			name = "Reference Grids";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +190,8 @@
 			files = (
 				7FD7DE1C15C03D3D00DCA702 /* InfoPlist.strings in Resources */,
 				7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */,
+				7FD7DE3D15C042DE00DCA702 /* RandomViewController.xib in Resources */,
+				7FD7DE4515C05B4900DCA702 /* key01.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +207,8 @@
 				7FD7DE2D15C03DBB00DCA702 /* RootViewController.m in Sources */,
 				7FD7DE3315C0405400DCA702 /* UIColor-Expanded.m in Sources */,
 				7FD7DE3415C0405400DCA702 /* UIColor+Crayons.m in Sources */,
+				7FD7DE3C15C042DE00DCA702 /* RandomViewController.m in Sources */,
+				7FD7DE4015C0465100DCA702 /* ContentKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

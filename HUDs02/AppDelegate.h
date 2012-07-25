@@ -3,7 +3,7 @@
 //  HUDs02
 //
 //  Created by Conrado Andreu Capdevila on 7/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Tewti Development. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
