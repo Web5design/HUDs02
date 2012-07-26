@@ -1,4 +1,4 @@
 h1. Sample project for iOS/Core Animation HUD and View Controller Containment
 
-See "my blog (conra2010's blog)":http://conra2010.wordpress.com/ for a quick introduction.
+See "the post in my blog (conra2010's blog)":http://conra2010.wordpress.com/2012/07/26/hud-design-in-ios-using-core-animation-and-view-controller-containers/ for a quick introduction.
 
