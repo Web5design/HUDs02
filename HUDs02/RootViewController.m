@@ -20,6 +20,7 @@ static RootViewController *singletonInstance;
 
 @implementation RootViewController
 
+//	Singleton pattern
 + (RootViewController *)sharedInstance
 {
 	if (! singletonInstance) {
@@ -50,6 +51,7 @@ static RootViewController *singletonInstance;
 
 - (void)showHUD
 {
+	//	Move the root layer and its contents on screen
 	[CATransaction begin];
 	[CATransaction setAnimationDuration:1.0f];
 	[CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
@@ -68,6 +70,7 @@ static RootViewController *singletonInstance;
 
 - (void)hideHUD
 {
+	//	Move the root layer out of the way
 	[CATransaction begin];
 	[CATransaction setAnimationDuration:1.0f];
 	[CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
@@ -112,15 +115,19 @@ static RootViewController *singletonInstance;
 		CALayer *who = [self.view.layer.presentationLayer hitTest:where];
 		
 		if (who) {
-			
+			//	"Buttons" in the hud have this key
 			id kv = [who valueForKey:@"ContentKey"];
 			
 			if (kv) {
-				
 				//	Do something with this
 				ContentKey *ck = (ContentKey *)kv;
 				
+				//	For instance, display the associated view controller
 				[self activateControllerForContentKey:ck];
+			} else {
+				
+				//	Not a key, hide the HUD
+				[self hideHUD];
 			}
 		}
 	}	

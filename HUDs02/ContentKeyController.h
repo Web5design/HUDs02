@@ -10,6 +10,7 @@
 
 @class ContentKey;
 
+//	A UIViewController that is representing a content key
 @protocol ContentKeyController <NSObject>
 
 - (id)initWithContentKey:(ContentKey *)ck;

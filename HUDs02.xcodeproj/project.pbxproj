@@ -98,11 +98,8 @@
 		7FD7DE1715C03D3D00DCA702 /* HUDs02 */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7DE4715C0642100DCA702 /* Colors */,
 				7FD7DE4215C05B3400DCA702 /* Reference Grids */,
-				7FD7DE2F15C0405400DCA702 /* UIColor-Expanded.h */,
-				7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */,
-				7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */,
-				7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */,
 				7FD7DE2015C03D3D00DCA702 /* AppDelegate.h */,
 				7FD7DE2115C03D3D00DCA702 /* AppDelegate.m */,
 				7FD7DE1815C03D3D00DCA702 /* Supporting Files */,
@@ -136,6 +133,17 @@
 				7FD7DE4315C05B4900DCA702 /* key01.png */,
 			);
 			name = "Reference Grids";
+			sourceTree = "<group>";
+		};
+		7FD7DE4715C0642100DCA702 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				7FD7DE2F15C0405400DCA702 /* UIColor-Expanded.h */,
+				7FD7DE3015C0405400DCA702 /* UIColor-Expanded.m */,
+				7FD7DE3115C0405400DCA702 /* UIColor+Crayons.h */,
+				7FD7DE3215C0405400DCA702 /* UIColor+Crayons.m */,
+			);
+			name = Colors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
