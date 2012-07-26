@@ -12,6 +12,8 @@
 
 #import "ContentKey.h"
 
+#define kHUDBackLayerOpacity (0.500f)
+
 @interface RootViewController ()
 
 @end
@@ -56,7 +58,7 @@ static RootViewController *singletonInstance;
 	[CATransaction setAnimationDuration:1.0f];
 	[CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
 	
-	hudLayerRef.position = CGPointMake(20.0f,0.0f);
+	hudLayerRef.position = CGPointMake(0.0f,0.0f);
 	
 	[CATransaction commit];
 	
@@ -75,7 +77,7 @@ static RootViewController *singletonInstance;
 	[CATransaction setAnimationDuration:1.0f];
 	[CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut]];
 	
-	hudLayerRef.position = CGPointMake(-1.0f * hudLayerRef.bounds.size.width, 0.0f);
+	hudLayerRef.position = CGPointMake(-1.0f * self.view.bounds.size.width, 0.0f);
 	
 	[CATransaction commit];
 	
@@ -161,25 +163,44 @@ static RootViewController *singletonInstance;
 	[super viewWillAppear:animated];
 	
 	if (! hudLayerRef) {
+		CALayer *refLayer = [CALayer layer];
+		
+		refLayer.frame = self.view.bounds;
+		refLayer.contents = (id)[[UIImage imageNamed:@"layer03.png"] CGImage];
+		
+		[self.view.layer addSublayer:refLayer];
+		
+		CALayer *L0 = [CALayer layer];
+		
+		L0.frame = CGRectMake(0.0f,0.0f,0.0f,256.0f);
+		L0.backgroundColor = [UIColor redColor].CGColor;
+		
 		//	Setup visuals for HUD
 		CALayer *L1 = [CALayer layer];
 		
 		//	HUD will cover the container view area
-		L1.frame = self.childContainerViewRef.bounds;
+		L1.frame = self.view.bounds;
+		
+		L1.contents = (id)[[UIImage imageNamed:@"layer04.png"] CGImage];
 		
 		L1.backgroundColor = [UIColor whiteColor].CGColor;
 		
-		L1.opacity = 0.250f;
+		L1.opacity = kHUDBackLayerOpacity;
 		//	Ref is top-left corner
 		L1.anchorPoint = CGPointMake(0.0f,0.0f);
 		
-		//	Out of the screen
-		L1.position = CGPointMake(-1.0f * self.view.bounds.size.width, 0.0f);
+		L1.position = CGPointMake(0.0f,0.0);
 		
-		[self.view.layer addSublayer:L1];
+		//	Out of the screen
+		L0.anchorPoint = CGPointMake(0.0f,0.0f);
+		L0.position = CGPointMake(-1.0f * self.view.bounds.size.width, 0.0f);
+		
+		[L0 addSublayer:L1];
+		
+		[self.view.layer addSublayer:L0];
 		
 		//	Keep a ref to it
-		hudLayerRef = L1;
+		hudLayerRef = L0;
 		
 		//	Initial keys
 		[self attachKeyToHUD:[ContentKey keyWithIdentifier:@"A01"]];
@@ -345,7 +366,7 @@ static RootViewController *singletonInstance;
 
 	//	Turn index into coordinates; say a matrix of 3 x 3 elements
 	
-	return CGPointMake(32.0f + (96.0f + 4.0f) * (n % 3), 32.0f + (96.0f + 4.0f) * (n / 3));
+	return CGPointMake(96.0f + (96.0f + 4.0f) * (n % 3), 96.0f + (96.0f + 4.0f) * (n / 3));
 }
 
 - (void)attachKeyToHUD:(ContentKey *)ck

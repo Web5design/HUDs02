@@ -22,6 +22,9 @@
 		7FD7DE3D15C042DE00DCA702 /* RandomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3B15C042DE00DCA702 /* RandomViewController.xib */; };
 		7FD7DE4015C0465100DCA702 /* ContentKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD7DE3F15C0465000DCA702 /* ContentKey.m */; };
 		7FD7DE4515C05B4900DCA702 /* key01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE4315C05B4900DCA702 /* key01.png */; };
+		7FD7DE5915C1362D00DCA702 /* layer03.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE5815C1362D00DCA702 /* layer03.png */; };
+		7FD7DE5C15C1397000DCA702 /* layer04.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE5B15C1397000DCA702 /* layer04.png */; };
+		7FD7DE5E15C146B800DCA702 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 7FD7DE5D15C146B800DCA702 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,9 @@
 		7FD7DE3F15C0465000DCA702 /* ContentKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentKey.m; sourceTree = "<group>"; };
 		7FD7DE4115C0560B00DCA702 /* ContentKeyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentKeyController.h; sourceTree = "<group>"; };
 		7FD7DE4315C05B4900DCA702 /* key01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = key01.png; sourceTree = "<group>"; };
+		7FD7DE5815C1362D00DCA702 /* layer03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layer03.png; sourceTree = "<group>"; };
+		7FD7DE5B15C1397000DCA702 /* layer04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layer04.png; sourceTree = "<group>"; };
+		7FD7DE5D15C146B800DCA702 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,7 @@
 				7FD7DE3E15C0465000DCA702 /* ContentKey.h */,
 				7FD7DE3F15C0465000DCA702 /* ContentKey.m */,
 				7FD7DE4115C0560B00DCA702 /* ContentKeyController.h */,
+				7FD7DE5D15C146B800DCA702 /* README */,
 			);
 			path = HUDs02;
 			sourceTree = "<group>";
@@ -130,6 +137,8 @@
 		7FD7DE4215C05B3400DCA702 /* Reference Grids */ = {
 			isa = PBXGroup;
 			children = (
+				7FD7DE5B15C1397000DCA702 /* layer04.png */,
+				7FD7DE5815C1362D00DCA702 /* layer03.png */,
 				7FD7DE4315C05B4900DCA702 /* key01.png */,
 			);
 			name = "Reference Grids";
@@ -200,6 +209,9 @@
 				7FD7DE2E15C03DBB00DCA702 /* RootViewController.xib in Resources */,
 				7FD7DE3D15C042DE00DCA702 /* RandomViewController.xib in Resources */,
 				7FD7DE4515C05B4900DCA702 /* key01.png in Resources */,
+				7FD7DE5915C1362D00DCA702 /* layer03.png in Resources */,
+				7FD7DE5C15C1397000DCA702 /* layer04.png in Resources */,
+				7FD7DE5E15C146B800DCA702 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +334,7 @@
 				7FD7DE2715C03D3D00DCA702 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
