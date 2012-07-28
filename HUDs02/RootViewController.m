@@ -14,6 +14,9 @@
 
 #define kHUDBackLayerOpacity (0.500f)
 
+#define kMatrixXPosition (512.0f)
+#define kMatrixYPosition (128.0f)
+
 @interface RootViewController ()
 
 @end
@@ -364,9 +367,9 @@ static RootViewController *singletonInstance;
 	//	Index in array of keys
 	NSUInteger n = [keys indexOfObject:ck];
 
-	//	Turn index into coordinates; say a matrix of 3 x 3 elements
+	//	Turn index into coordinates; say a matrix of n x 2 elements
 	
-	return CGPointMake(96.0f + (96.0f + 4.0f) * (n % 3), 96.0f + (96.0f + 4.0f) * (n / 3));
+	return CGPointMake(kMatrixXPosition + (96.0f + 4.0f) * (n % 2), kMatrixYPosition + (96.0f + 4.0f) * (n / 2));
 }
 
 - (void)attachKeyToHUD:(ContentKey *)ck

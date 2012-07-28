@@ -25,7 +25,7 @@
     self = [super initWithNibName:nil bundle:nil];
     if (self) {
         // Custom initialization
-		key = ck;
+		key = ck;		
     }
     return self;
 }
