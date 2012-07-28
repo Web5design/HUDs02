@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2AA59015C4577B00669B23 /* rcxb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F2AA58F15C4577B00669B23 /* rcxb.png */; };
 		7FD7DE1215C03D3D00DCA702 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE1115C03D3D00DCA702 /* UIKit.framework */; };
 		7FD7DE1415C03D3D00DCA702 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE1315C03D3D00DCA702 /* Foundation.framework */; };
 		7FD7DE1615C03D3D00DCA702 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FD7DE1515C03D3D00DCA702 /* CoreGraphics.framework */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F2AA58F15C4577B00669B23 /* rcxb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rcxb.png; sourceTree = "<group>"; };
 		7FD7DE0D15C03D3D00DCA702 /* HUDs02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUDs02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FD7DE1115C03D3D00DCA702 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7FD7DE1315C03D3D00DCA702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 		7FD7DE4215C05B3400DCA702 /* Reference Grids */ = {
 			isa = PBXGroup;
 			children = (
+				7F2AA58F15C4577B00669B23 /* rcxb.png */,
 				7FD7DE5B15C1397000DCA702 /* layer04.png */,
 				7FD7DE5815C1362D00DCA702 /* layer03.png */,
 				7FD7DE4315C05B4900DCA702 /* key01.png */,
@@ -212,6 +215,7 @@
 				7FD7DE5915C1362D00DCA702 /* layer03.png in Resources */,
 				7FD7DE5C15C1397000DCA702 /* layer04.png in Resources */,
 				7FD7DE5E15C146B800DCA702 /* README in Resources */,
+				7F2AA59015C4577B00669B23 /* rcxb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
